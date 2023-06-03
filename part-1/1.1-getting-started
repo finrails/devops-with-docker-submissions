@@ -1,0 +1,4 @@
+CONTAINER ID   IMAGE          COMMAND                  CREATED         STATUS                     PORTS     NAMES
+46f243d4ae99   f9c14fe76d50   "/docker-entrypoint.…"   4 minutes ago   Exited (0) 3 minutes ago             heuristic_lovelace
+6e5f28e47de8   f9c14fe76d50   "/docker-entrypoint.…"   4 minutes ago   Exited (0) 3 minutes ago             serene_moser
+0a776d3978ba   f9c14fe76d50   "/docker-entrypoint.…"   4 minutes ago   Up 4 minutes               80/tcp    silly_bardeen
