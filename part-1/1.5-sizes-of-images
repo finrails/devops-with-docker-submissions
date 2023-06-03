@@ -1,0 +1,30 @@
+➜  part-1 git:(main) docker images
+REPOSITORY                          TAG       IMAGE ID       CREATED       SIZE
+devopsdockeruh/simple-web-service   ubuntu    4e3362e907d5   2 years ago   83MB
+devopsdockeruh/simple-web-service   alpine    fd312adc88e0   2 years ago   15.7MB
+➜  part-1 git:(main) docker run -it --rm -d fd312
+9caf0d22c614c054a1454c4bc5b89b4e106f14f194d2215455ac2ce4298a16cc
+➜  part-1 git:(main) docker exec -it 9ca sh
+/usr/src/app # ls
+server    text.log
+/usr/src/app # tail -f text.log
+2023-06-03 20:32:12 +0000 UTC
+2023-06-03 20:32:14 +0000 UTC
+2023-06-03 20:32:16 +0000 UTC
+2023-06-03 20:32:18 +0000 UTC
+Secret message is: 'You can find the source code here: https://github.com/docker-hy'
+2023-06-03 20:32:20 +0000 UTC
+2023-06-03 20:32:22 +0000 UTC
+2023-06-03 20:32:24 +0000 UTC
+2023-06-03 20:32:26 +0000 UTC
+2023-06-03 20:32:28 +0000 UTC
+Secret message is: 'You can find the source code here: https://github.com/docker-hy'
+2023-06-03 20:32:30 +0000 UTC
+2023-06-03 20:32:32 +0000 UTC
+2023-06-03 20:32:34 +0000 UTC
+2023-06-03 20:32:36 +0000 UTC
+2023-06-03 20:32:38 +0000 UTC
+Secret message is: 'You can find the source code here: https://github.com/docker-hy'
+2023-06-03 20:32:40 +0000 UTC
+^C
+/usr/src/app # exit
