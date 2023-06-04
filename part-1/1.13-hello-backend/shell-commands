@@ -1,0 +1,4 @@
+➜  1.13-hello-backend git:(main) ✗ docker build . -t back
+[...]
+[+] Building 0.7s (11/11) FINISHED
+➜  1.13-hello-backend git:(main) ✗ docker run -p 8080:8080 back
