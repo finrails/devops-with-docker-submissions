@@ -23,7 +23,7 @@ Here are the steps to use it properly:
 
 1. Be sure that you have Docker installed in your local machine
 2. Paste that command in your shell: `docker pull finrails/who-is-ada` (without quotes, please)
-3. If you've pulled the image from the Docker Hub repository, you can run: `docker run who-is-ada`
+3. If you've pulled the image from the Docker Hub repository, you can run: `docker run finrails/who-is-ada`
 4. If everything goes right, you will see a bunch of nonsense text on your screen, that is just HTML
 
 That's all, simple as hydrogen.
