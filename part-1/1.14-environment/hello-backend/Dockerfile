@@ -13,7 +13,7 @@ ENV PATH /usr/local/go/bin:$PATH
 
 RUN go build && go test
 
-ENV REQUEST_ORIGIN=http://localhost:5000
+ENV REQUEST_ORIGIN=http://127.0.0.1:5000
 
 EXPOSE 8080
 
