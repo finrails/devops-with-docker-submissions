@@ -1,0 +1,3 @@
+➜  part-1 git:(main) ✗ docker run -d -p 3000:8080 web-server
+➜  part-1 git:(main) ✗ curl 127.0.0.1:3000
+{"message":"You connected to the following path: /","path":"/"}% 
