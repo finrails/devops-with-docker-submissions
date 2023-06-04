@@ -1,0 +1,4 @@
+➜  1.12-hello-frontend git:(main) ✗ docker build . -t front
+[...]
+➜  1.12-hello-frontend git:(main) ✗ docker run -d -p 5000:5000 front
+48ad4ba217e5b63c482e8be50ed7df66cf9ce9458994b9d372fe953340c1607a

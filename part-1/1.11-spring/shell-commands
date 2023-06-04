@@ -1,0 +1,2 @@
+➜  1.11-spring git:(main) ✗ docker build . -t spring
+➜  1.11-spring git:(main) ✗ docker run -p 3000:8080 spring
