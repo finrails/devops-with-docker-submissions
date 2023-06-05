@@ -1,0 +1,10 @@
+The only thing i did beyond add the redis into the docker compose
+was just set up the REDIS_HOST in the back Dockerfile.
+
+The base backend image is already well configured for redis, so
+you do not really need to set ports or something like that. Just
+set the env putting the redis service name in it.
+
+The DNS resolver will do all the hard work.
+
+You also need to set it up, if you want that it works in your machine.
