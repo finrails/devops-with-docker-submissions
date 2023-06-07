@@ -1,0 +1,16 @@
+The docker-compose.yml that you'll find here, is just a copy of the 2.8 one,
+that's because i already did the things work. Here are the steps that i took
+to make the buttons works properly:
+
+1. I did set the env frontend variable REACT_APP_BACKEND_URL to port :80 in localhost
+	> thats because now the requests are made by the reverse proxy, and the reverse proxy
+	> will make request as the origin localhost:80 and not as localhost:8080.
+	> why? well, the frontend (::5000) will make a request to ::80/api, the reverse proxy
+	> will identify this '/api' endpoint (thanks to the nginx.conf) and will make a request 
+	> to this 'api' endpoint then, we will also need to set this '/api' endpoint to receive 
+	> requests on "::80" and we did it, we set the "REQUEST_ORIGIN" in the backend as "::80"
+	> so the backend will response with some "pong" and the reverse proxy ::80 will just
+	> return it to the front, and the front will process this data; after that the front will
+	> return the html page to the ::80 (reverse proxy) which will return it to the client (browser).
+
+that's all, i'll put this into the readme, i'm just tired to write some .md file now.
