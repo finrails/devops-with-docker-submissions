@@ -1,0 +1,7 @@
+The exercise said that we're done if the report looks like: [...]
+
+But i'll explain what i did, i just removed the ports bind from
+the docker-compose.yml.
+
+The containers will expose the ports automatically inside the 
+Docker network.
