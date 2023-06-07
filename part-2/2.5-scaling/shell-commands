@@ -1,0 +1,2 @@
+➜  scaling-exercise git:(main) docker compose up -d --scale compute=2
+
