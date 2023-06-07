@@ -1,0 +1,15 @@
+Well, i really like to develop backend system, while i do that in the past
+i've used Docker so many times. I don't know, it was so easy to put the
+application up. Set the database, cache, workers, queues. So nice.
+
+It was like i had the control of everything in the system, and it is
+a really good sensation.
+
+And if some day i wish to develop the project with some people else,
+i just need to upload the docker images to the hub, and the docker-compose
+to the github.
+
+Really useful.
+
+Oh there's the version control as well; i didn't need any runtime manager
+(like asdf), because docker does that role very well.
