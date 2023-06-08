@@ -1,0 +1,4 @@
+The Docker image uses alpine as its base, and as you may know
+alpine does not comes with bash by default, only sh.
+
+So be aware to set the # header into the shell script.
