@@ -1,11 +1,11 @@
 DevOps With Docker
 ==================
 
-Here you can finds all my solutions of DevOps with Docker course maintained
+Here you can find all my solutions of DevOps with Docker course, maintained
 by the Computer Science's Departament of the Helsinki's University.
 
 The whole course consists of three modules: part 1, part 2 and part 3. Each
-of these modules have a bunch of exercises, i have decided to organize my solutions in
+of these modules have a bunch of exercises, i did decide to organize my solutions in
 the following manner: 
 (dir) part (number) -> (dir) exercise (number) -> exercise-files, so you can skim through it easily.
 
@@ -17,7 +17,7 @@ That's all.
 Part 1; Exercise 1.15
 =====================
 
-Who is Ada is a simple docker image that will spit a HTML wikipedia page on Ada Lovelace.
+Who is Ada is a simple docker image that will spit a HTML wikipedia page about Ada Lovelace.
 
 Here are the steps to use it properly:
 
