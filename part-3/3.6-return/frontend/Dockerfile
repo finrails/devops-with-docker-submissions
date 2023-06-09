@@ -14,7 +14,11 @@ RUN apt update && \
 		npm run build && \
 		npm install -g serve && \
 		apt remove -y curl && \
+		adduser --disabled-password appuser && \
 		rm -rf /var/lib/apt/lists/*
+
+
+USER appuser
 
 ENTRYPOINT [ "serve" ]
 
