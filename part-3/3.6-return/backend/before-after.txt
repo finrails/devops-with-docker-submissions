@@ -1,0 +1,9 @@
+after: 21 seconds ago   RUN /bin/sh -c apt update && apt install -y …   831MB     buildkit.dockerfile.v0
+
+before:
+
+About a minute ago   RUN /bin/sh -c go build && go test # buildkit   146MB     buildkit.dockerfile.v0
+About a minute ago   RUN /bin/sh -c rm -rf /usr/local/go && tar -…   386MB     buildkit.dockerfile.v0
+2 minutes ago        RUN /bin/sh -c apt update && apt install -y …   340MB     buildkit.dockerfile.v0
+
+Total: ~872MB
