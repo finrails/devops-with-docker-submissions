@@ -1,0 +1,13 @@
+
+before:
+	About a minute ago   RUN /bin/sh -c go build &&   go test &&   ad…   241MB     buildkit.dockerfile.v0
+
+after: 
+	back         latest    ffab8e851fca   4 minutes ago    18.6MB
+
+The gist it that we did copy the binary from go build into the scratch build,
+the only role of the scratch build is to execute the 'server' binary.
+
+And that's all, we just expose and bind some ports to acess it from outside.
+
+It works well.

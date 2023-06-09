@@ -1,0 +1,14 @@
+before:
+	8 minutes ago    RUN /bin/sh -c npm install &&   npm run buil…   351MB     buildkit.dockerfile.v0
+
+after:
+	front        latest    9b2d57866611   11 minutes ago   13MB
+
+
+There's a great difference when using multi-stage build,
+it's a gap of 338MB between before and after.
+
+That's because we just build the app with npm, get rid of it
+and copy the build into nginx build, then nginx will serve it as static files.
+
+Oh, it is working perfectlly.
