@@ -1,0 +1,4 @@
+before:
+	ada          latest    70f061b6990e   4 seconds ago    13.7MB
+after:
+	ada          latest    a99a9089fa79   15 seconds ago   1.63MB
