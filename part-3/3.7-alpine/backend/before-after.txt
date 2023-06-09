@@ -1,0 +1,8 @@
+
+before:
+
+	21 seconds ago   RUN /bin/sh -c apt update && apt install -y …   831MB     buildkit.dockerfile.v0
+
+after: 
+
+	About a minute ago   RUN /bin/sh -c go build &&   go test &&   ad…   241MB     buildkit.dockerfile.v0

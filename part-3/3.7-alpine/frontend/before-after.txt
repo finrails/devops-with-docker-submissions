@@ -1,0 +1,5 @@
+before:
+	18 seconds ago   RUN /bin/sh -c apt update &&   apt install -…   489MB     buildkit.dockerfile.v0
+
+after:
+	8 minutes ago    RUN /bin/sh -c npm install &&   npm run buil…   351MB     buildkit.dockerfile.v0
